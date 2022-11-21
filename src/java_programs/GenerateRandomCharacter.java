@@ -12,7 +12,6 @@ public class GenerateRandomCharacter {
 		//Above one is not working as accepted.
 		//It was followed from example 6.10(Random Character), 
 		//please go through this unicode/decimal concept when have time
-		
 
 	}
 	
