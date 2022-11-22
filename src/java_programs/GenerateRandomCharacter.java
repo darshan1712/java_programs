@@ -4,7 +4,7 @@ public class GenerateRandomCharacter {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(getRandomCharacter('g', 'z'));
+		System.out.println(getRandomCharacter('a', 'z'));
 		System.out.println(getRandomCharacter('G', 'Z'));
 		System.out.println(getRandomCharacter('A', 'Z'));
 		System.out.println(getRandomCharacter('0', '9'));

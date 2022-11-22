@@ -1,5 +1,7 @@
 package java_programs;
 
+import java.util.Arrays;
+
 public class DeckOfCards {
 
 	public static void main(String[] args) {
@@ -15,6 +17,7 @@ public class DeckOfCards {
 		{
 			deck[i] = i;
 		}
+		System.out.println(Arrays.toString(deck));
 		
 		//shuffle a deck
 		for(int i=0; i < deck.length; i++)
@@ -24,6 +27,7 @@ public class DeckOfCards {
 			deck[0] = deck[shuffledCard];
 			deck[shuffledCard] = temp;
 		}
+		System.out.println(Arrays.toString(deck));
 		
 		//display first four cards
 		for (int i = 0; i < 4; i++)
